@@ -108,10 +108,10 @@ pip install pandas numpy seaborn matplotlib scikit-learn django
   - **Confusion Matrix**
   - **Classification Report**
 
-## Model Deployment
+### Model Deployment
 - **Web Application:** Deploying the trained model using Django to create a user-friendly web application for diabetes prediction.
 
-### Improving Model Accuracy
+## Improving Model Accuracy
 For all these applications, achieving high accuracy is crucial. This can be accomplished through:
 - **Data Augmentation:** Increasing the size and diversity of the training dataset.
 - **Feature Engineering:** Creating new features that better represent the underlying patterns in the data.
