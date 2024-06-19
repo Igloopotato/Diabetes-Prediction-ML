@@ -1,39 +1,42 @@
 # Diabetes Prediction using Machine Learning
 
-This project involves predicting diabetes using various machine learning algorithms. Below, we explain the libraries used, the algorithms applied, and their roles in the project. 
+This GitHub repository contains a project that demonstrates how to predict diabetes using various machine learning algorithms. The project includes data visualization, data preprocessing, model training, evaluation, and deployment using a Django web application.
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Requirements](#requirements)
+3. [Data Preparation](#data-preparation)
+4. [Data Visualization](#data-visualization)
+5. [Model Training and Evaluation](#model-training-and-evaluation)
+6. [Conclusion](#conclusion)
+
+## Introduction
+This project demonstrates the use of machine learning to predict diabetes. We use various libraries and frameworks to achieve this:
+
+- **Seaborn:** Data visualization.
+- **Django:** Web framework for deployment.
+- **Matplotlib:** Plotting and visualizations.
+- **Pandas:** Data manipulation and analysis.
+- **NumPy:** Numerical computing.
+- **Scikit-learn:** Machine learning library for model training and evaluation.
+
+## Requirements
+To run this project, you need to have the following libraries installed:
+
+```sh
+pip install pandas numpy seaborn matplotlib scikit-learn django
+```
 
 ## Libraries Used
 
-### Seaborn
-**Function:** Data Visualization
+ - Seaborn is used to create plots that help us understand the distribution and relationships within the diabetes dataset.
+ - Matplotlib is used alongside Seaborn to create detailed plots that help in understanding the data and the results of the machine learning models.
+ - Pandas providing data structures like DataFrames that make it easy to manipulate, analyze, and visualize data. In this project, Pandas is used to load, clean, and preprocess the diabetes dataset.
+ - NumPy is used for efficient computation and manipulation of numerical data in the project.
+ - Scikit-learn is used to train and evaluate multiple machine learning models.
+ - Django is used to deploy the machine learning model in a web application, allowing users to input data and receive predictions.
 
-Seaborn is a Python visualization library based on Matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. In this project, Seaborn is used to create plots that help us understand the distribution and relationships within the diabetes dataset.
-
-### Django
-**Function:** Web Framework
-
-Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. While Django is not directly involved in the machine learning process, it is used to deploy the machine learning model in a web application, allowing users to input data and receive predictions.
-
-### Matplotlib
-**Function:** Plotting Library
-
-Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It is used alongside Seaborn to create detailed plots that help in understanding the data and the results of the machine learning models.
-
-### Pandas
-**Function:** Data Manipulation and Analysis
-
-Pandas is a powerful data manipulation library for Python, providing data structures like DataFrames that make it easy to manipulate, analyze, and visualize data. In this project, Pandas is used to load, clean, and preprocess the diabetes dataset.
-
-### NumPy
-**Function:** Numerical Computing
-
-NumPy is a fundamental package for scientific computing in Python. It provides support for arrays and matrices, along with a collection of mathematical functions to operate on these data structures. NumPy is used for efficient computation and manipulation of numerical data in the project.
-
-### Scikit-learn
-**Function:** Machine Learning Library
-
-Scikit-learn is a robust library for machine learning in Python. It provides simple and efficient tools for data mining and data analysis, including algorithms for classification, regression, clustering, and more. In this project, Scikit-learn is used to train and evaluate multiple machine learning models.
-
+ - 
 ## Machine Learning Algorithms Used
 
 ### 1. Logistic Regression
