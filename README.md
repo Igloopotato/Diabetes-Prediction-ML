@@ -80,8 +80,11 @@ By employing these techniques, machine learning models can become highly reliabl
 A similar methodology can be applied to predict other diseases such as:
 
 **Breast Cancer:** Using diagnostic data like mammograms.
+
 **Malaria:** Using image data from blood smears.
+
 **Heart Disease:** Using patient data like cholesterol levels and blood pressure.
+
 **COVID-19:** Using symptoms and medical history.
 
 With high accuracy, these models can become reliable tools for early disease detection and treatment, significantly aiding in medical diagnostics.
