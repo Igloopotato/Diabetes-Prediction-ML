@@ -19,7 +19,7 @@ This project demonstrates the use of machine learning to predict diabetes.
 ## Datasets
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
 
-You can check the datasets [here]()
+You can check the datasets [here](assets/diabetes.csv)
 
 ## Requirements
 To run this project, you need to have the following libraries installed:
@@ -48,29 +48,24 @@ pip install pandas numpy seaborn matplotlib scikit-learn django
 - **Model Deployment:** Deploying the trained model using Django to create a user-friendly web application for diabetes prediction.
 
 ## Machine Learning Algorithm Used
-  ### Logistic Regression
-  - **Explanation:** Logistic Regression is a linear model used for binary classification. It models the probability of the default class using a logistic function.
-  - **Link:** [Logistic Regression Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 
-  ### K-Nearest Neighbors (KNN)
-  - **Explanation:** KNN is a non-parametric algorithm that classifies data points based on the majority class among their neighbors. It's based on distance metrics.
-  - **Link:** [KNN Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+  ### [Logistic Regression Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+  - Logistic Regression is a linear model used for binary classification. It models the probability of the default class using a logistic function.
 
-  ### Support Vector Classifier (SVC)
-  - **Explanation:** SVC finds a hyperplane in high-dimensional space that best separates data points into different classes. It can handle both linear and non-linear data using different kernels.
-  - **Link:** [SVC Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+  ### [ K-Nearest Neighbors (KNN)](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+  - KNN is a non-parametric algorithm that classifies data points based on the majority class among their neighbors. It's based on distance metrics.
 
-  ### Naive Bayes
-  - **Explanation:** Naive Bayes is a probabilistic classifier based on applying Bayes' theorem with strong independence assumptions between features.
-  - **Link:** [Naive Bayes Documentation](https://scikit-learn.org/stable/modules/naive_bayes.html)
+  ### [Support Vector Classifier(SVC)](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+  - SVC finds a hyperplane in high-dimensional space that best separates data points into different classes. It can handle both linear and non-linear data using different kernels.
 
-  ### Decision Tree
+  ### [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)
+  - Naive Bayes is a probabilistic classifier based on applying Bayes' theorem with strong independence assumptions between features.
+  
+  ### [Decision Tree](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
   - **Explanation:** Decision Tree recursively splits the data into subsets based on features, aiming to maximize information gain or Gini impurity reduction at each split.
-  - **Link:** [Decision Tree Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
 
-  ### Random Forest
-  - **Explanation:** Random Forest is an ensemble learning method that constructs multiple decision trees during training and outputs the mode of the classes (classification) or mean prediction (regression) of individual trees.
-  - **Link:** [Random Forest Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+  ### [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+  - Random Forest is an ensemble learning method that constructs multiple decision trees during training and outputs the mode of the classes (classification) or mean prediction (regression) of individual trees
 
 ## Improving Model Accuracy
 For all these applications, achieving high accuracy is crucial. This can be accomplished through:
