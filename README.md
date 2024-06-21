@@ -39,13 +39,13 @@ pip install pandas numpy seaborn matplotlib scikit-learn django
 
 ## Methodology
 
-- **Data Collection and Libraries Import:**  Loading the diabetes dataset and importing necessary libraries like Pandas and NumPy for data manipulation and analysis.
-- **Data Exploration and Initial Insights:** Gaining an initial understanding of the dataset's structure, dimensions, data types, and identifying any missing values or anomalies.
-- **Explarotary Data Analysis:** Visualizing data distributions, relationships between features, and exploring correlations to uncover patterns and insights within the dataset
-- **Data Preprocessing:**  Handling missing values, scaling numerical features, and selecting relevant features to prepare the dataset for model training.
-- **Model Training and Selection:**  Training various machine learning models to determine the best-performing algorithm for predicting diabetes. Models are evaluated using metrics such as accuracy, precision, recall, and F1-score to select the most suitable mode.
-- **Model Evaluation:** Assessing model performance using metrics like accuracy score, confusion matrix, and classification report to understand how well the models predict diabetes.
-- **Model Deployment:** Deploying the trained model using Django to create a user-friendly web application for diabetes prediction.
+1. **Data Collection and Libraries Import:**  Loading the diabetes dataset and importing necessary libraries like Pandas and NumPy for data manipulation and analysis.
+2. **Data Exploration and Initial Insights:** Gaining an initial understanding of the dataset's structure, dimensions, data types, and identifying any missing values or anomalies.
+3. **Explarotary Data Analysis:** Visualizing data distributions, relationships between features, and exploring correlations to uncover patterns and insights within the dataset
+4. **Data Preprocessing:**  Handling missing values, scaling numerical features, and selecting relevant features to prepare the dataset for model training.
+5. **Model Training and Selection:**  Training various machine learning models to determine the best-performing algorithm for predicting diabetes. Models are evaluated using metrics such as accuracy, precision, recall, and F1-score to select the most suitable mode.
+6. **Model Evaluation:** Assessing model performance using metrics like accuracy score, confusion matrix, and classification report to understand how well the models predict diabetes.
+7. **Model Deployment:** Deploying the trained model using Django to create a user-friendly web application for diabetes prediction.
 
 ## Machine Learning Algorithm Used
 
